@@ -1,4 +1,7 @@
-<?php require 'app/config/ModuleAdmin.php' ?>
+<?php
+  require 'app/config/ModuleAdmin.php';
+  require 'app/config/Module.php'
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,10 +9,11 @@
     <title></title>
     <?php
       // Chargement des librairies nécessaires
-      ModuleAdmin::base();
-      ModuleAdmin::navbar();
+      Module::base();
+      Module::navbar();
       ModuleAdmin::clientProfil();
-      ModuleAdmin::bouton();
+      Module::bouton();
+      Module::login();
     ?>
   </head>
   <body>

@@ -9,12 +9,4 @@ body {
     text-align: center;
     text-align: -moz-center;
     overflow-y: hidden;
-    display: grid;
-    grid-template-areas:
-   'header header header header'
-   'sub-header sub-header sub-header sub-header'
-   'main main main main'
-   'main main main main'
-   'main main main main'
-   'footer footer footer footer';
 }
