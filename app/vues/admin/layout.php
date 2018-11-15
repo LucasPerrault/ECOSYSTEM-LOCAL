@@ -1,4 +1,6 @@
-<?php require 'app/config/ModuleAdmin.php' ?>
+<?php
+require 'app/config/ModuleAdmin.php';
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
