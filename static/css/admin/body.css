@@ -6,15 +6,8 @@ body {
     height: 100%;
     min-height: 100%;
     text-rendering: optimizeLegibility; /* Priviligie la lisibilité du text lors de changement d'écran.*/
-    text-align: center;
-    text-align: -moz-center;
     overflow-y: hidden;
-    display: grid;
-    grid-template-areas:
-   'header header header header'
-   'sub-header sub-header sub-header sub-header'
-   'main main main main'
-   'main main main main'
-   'main main main main'
-   'footer footer footer footer';
+    width: 100%;
+    position: absolute;
+    margin:0;
 }
