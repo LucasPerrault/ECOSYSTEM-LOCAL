@@ -1,5 +1,5 @@
 <?php
-namespace ECOSYSTEM\App\Controleur\admin;
+namespace ECOSYSTEM\App\Controleur\partage;
 
 class Controleur {
  /*
@@ -9,15 +9,15 @@ class Controleur {
 	protected $_content;
 
   public function __construct() {
-		require 'app/config/AdminManager.php';
+		require 'app/config/Manager.php';
     // Constructeur du contrôleur
 		// $this->manager->getModel('Content');
 		// $this->_content = new Content;
-    $this->_manager = new \ECOSYSTEM\app\config\AdminManager;
+    $this->_manager = new \ECOSYSTEM\app\config\Manager;
   }
 
-	public function layout() {
-		$this->_manager->getView('layout');
+	public function authentification() {
+		$this->_manager->getView('authentification');
   }
 
 	public function notFound() {
