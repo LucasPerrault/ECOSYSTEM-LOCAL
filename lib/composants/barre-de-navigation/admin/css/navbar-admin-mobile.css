@@ -277,7 +277,7 @@
 }
 
 /*******************(MOBILE PAYSAGE: résolution adaptatif)****************************/
-@media only screen and (min-width : 321px) {
+@media only handheld and (min-width : 321px) {
   /*Modification de la taille du menu*/
   header > nav {
     width: 20%;
@@ -294,8 +294,8 @@
         }
 
 /*******************(IPHONE 6 7 8)************************/
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-  @media only screen and (orientation : landscape) {
+@media only handheld and (min-device-width : 375px) and (max-device-width : 667px) {
+  @media only handheld and (orientation : landscape) {
     /*Modification de la taille du menu*/
     header > nav {
       width: 20%;
@@ -309,7 +309,7 @@
       width: 40%;
     }
   }
-  @media only screen and (orientation:PORTRAIT) {
+  @media only handheld and (orientation:PORTRAIT) {
     /*Modification de la taille du menu*/
     header > nav {
       width: 20%;
@@ -327,13 +327,13 @@
 }
 
 /*******************(IPHONE 6 7 8 PLUS)************************/
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-  @media only screen and (orientation:landscape) {
+@media only handheld and (min-device-width : 414px) and (max-device-width : 736px) {
+  @media only handheld and (orientation:landscape) {
     .searchbar > a > img { width: 35%; }
     header > div#logo > ul > li:last-of-type > a > img { width: 40%; }
   }
 
-  @media only screen and (orientation:PORTRAIT) {
+  @media only handheld and (orientation:PORTRAIT) {
     .searchbar > a > img { width: 55%; }
     header > div#logo > ul > li:last-of-type > a > img { width: 60%; }
   }
