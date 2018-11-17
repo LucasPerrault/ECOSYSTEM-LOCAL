@@ -4,8 +4,12 @@
     <input type="password" name="password" placeholder="Mot de passe">
     <span>Mot de passe oublié ?</span>
     <div>
-      <button class="connexion" type="button" name="login">Connexion</button>
-      <button class="inscrire" type="button" name="register">S'inscrire</button>
+      <input class="connexion" type="submit" name="login" value="Connexion">
+      <input class="inscrire" type="submit" name="register" value="S'inscrire" onclick="window.location=''">
     </div>
   </form>
+</div>
+<div class="" style="margin-left: 40%;">
+  <a href="<?=ROOT_URL?>?Route=admin&amp;Ctrl=ControleurAdmin&amp;Vue=home">DEV: Go to admin</a>
+  <a href="<?=ROOT_URL?>?Route=client&amp;Ctrl=ControleurClient&amp;Vue=home">DEV: Go to client</a>
 </div>
