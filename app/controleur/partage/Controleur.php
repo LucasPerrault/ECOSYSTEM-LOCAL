@@ -9,11 +9,11 @@ class Controleur {
 	protected $_content;
 
   public function __construct() {
-		require 'app/config/Manager.php';
+		require 'app/config/managers/Manager.php';
     // Constructeur du contrôleur
 		// $this->manager->getModel('Content');
 		// $this->_content = new Content;
-    $this->_manager = new \ECOSYSTEM\app\config\Manager;
+    $this->_manager = new \ECOSYSTEM\app\config\managers\Manager;
   }
 
 	public function authentification() {

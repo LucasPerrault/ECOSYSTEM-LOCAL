@@ -9,11 +9,11 @@ class ControleurAdmin {
 	protected $_content;
 
   public function __construct() {
-		require 'app/config/AdminManager.php';
+		require 'app/config/managers/AdminManager.php';
     // Constructeur du contrôleur
 		// $this->manager->getModel('Content');
 		// $this->_content = new Content;
-    $this->_manager = new \ECOSYSTEM\app\config\AdminManager;
+    $this->_manager = new \ECOSYSTEM\app\config\managers\AdminManager;
   }
 
 	public function home() {
